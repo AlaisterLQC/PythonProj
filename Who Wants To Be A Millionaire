@@ -1,0 +1,23 @@
+# Who Wants To Be A Millionaire (One Piece)
+
+score = 0
+
+option1 = 'King Of The Pirates'
+option2 = 'King Of The World'
+option3 = 'King Of The Sea'
+option4 = 'King Of The Sky'
+  
+print("What does Monkey D. Luffy, from the manga One Piece, want to become?\n")
+
+print("A.", option1)
+print("B.", option2)
+print("C.", option3)
+print("D.", option4)
+  
+answer = 'a'
+
+if answer == 'A' or answer == 'a': 
+  score += 100
+  print("\nCorrect!")
+else:
+  print("\nNope, sorry!")
